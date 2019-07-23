@@ -8,11 +8,14 @@ output:
     theme: united
 ---
 ## 0. Disclaimer
-I have referred the Megan Risdal's Kaggle Titanic Notebook. This is my first attempt to understand the kaggle kernel written by her. All credits to `Megan Risdal`
+I have referred the Megan Risdal's Kaggle Titanic Notebook. This is my first attempt to understand the kaggle kernel written by her. All credits to Megan Risdal who has written wonderful kernel at following link.
 Link : https://www.kaggle.com/mrisdal/exploring-survival-on-the-titanic
 
 ## 1. Introduction
-This is my first kernel for Titanic competition. I will add more details here later. Lets get started.
+As I start my journey here on kaggle. I have decided to follow the above mentioned kernel to understand how experts in the field are doing their work.
+After lot of procrastination, I have finally decided to start with Titanic dataset. In implementing this kernel I have understood how to proceed with story based analysis flow and finally I have used `randomForest` algorithm for predictions.
+The leaderboard score of this kernel is not so high to be competitative but it has helped me to learn basic concepts. In my future kernels I will try to improve the score with different strategies.
+Lets get started....
 
 ### 1.1 Loading and Reading the Data
 ```{r setup, echo=TRUE,message=FALSE}
